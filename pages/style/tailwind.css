@@ -1,0 +1,22 @@
+/* styles/tailwind.css */
+
+@screen md {
+  .bg-desktop {
+    background-image: url('/Homebackground.png');
+  }
+
+  .bg-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .bg-mobile {
+    display: block;
+    background-image: url('/mobileHomebackground.png');
+  }
+
+  .bg-desktop {
+    display: none;
+  }
+}

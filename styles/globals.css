@@ -1,0 +1,48 @@
+/* @tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+*/.bg-desktop {
+  background-image: url('/Homebackground.png');
+}
+
+/* Hide background image for screens with width > 600px (laptop/desktop) */
+.bg-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  /* Show background image for screens with width <= 600px (mobile) */
+  .bg-mobile {
+    display: block;
+    background-image: url('/mobileHomebackground.png');
+  }
+
+  /* Hide background image for screens with width <= 600px (mobile) */
+  .bg-desktop {
+    display: none;
+  }
+}
