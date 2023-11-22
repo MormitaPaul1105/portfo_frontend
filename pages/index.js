@@ -119,7 +119,7 @@ export default function Home() {
 */
 import dynamic from "next/dynamic";
 // Dynamic Imports
-import Link from 'next/link';
+
 import { useRouter } from "next/router";
 import { useState } from "react";
 import axios from "axios";
