@@ -67,7 +67,7 @@ export default function _NavBar() {
                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
      
                 <li>
-                  <a  href= "/dashboard/about" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About Me</a>
+                  <a  href= "https://mormitapaul1105.github.io/dashboard/about" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About Me</a>
                 </li>
                 <li>
                   <a href= "/dashboard/certificate"  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">My Certificates</a>
